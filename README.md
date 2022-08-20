@@ -9,3 +9,4 @@ zcat *_protein.faa.gz |\
     grep -Ev '^\s*$|^>\s*$' |\
     gzip > one_faa.gz
 ```
+https://askubuntu.com/a/1125418
